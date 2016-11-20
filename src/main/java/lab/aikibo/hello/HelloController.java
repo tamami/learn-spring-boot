@@ -3,6 +3,10 @@ package lab.aikibo.hello;
 /**
  * Created by tamami on 19/11/16.
  */
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 @RestController
 public class HelloController {
 
